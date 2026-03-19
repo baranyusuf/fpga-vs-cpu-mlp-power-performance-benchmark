@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Mar 11 19:31:18 2026
+# Process ID: 3337869
+# Current directory: /home/y.baran.659/fpga_hls4ml/hls_project
+# Command line: vivado -mode batch -source power_estimate.tcl
+# Log file: /home/y.baran.659/fpga_hls4ml/hls_project/vivado.log
+# Journal file: /home/y.baran.659/fpga_hls4ml/hls_project/vivado.jou
+# Running On        :waiter
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.5 LTS
+# Processor Detail  :AMD Ryzen Threadripper PRO 7985WX 64-Cores
+# CPU Frequency     :1500.000 MHz
+# CPU Physical cores:64
+# CPU Logical cores :128
+# Host memory       :404950 MB
+# Swap memory       :0 MB
+# Total Virtual     :404950 MB
+# Available Virtual :220474 MB
+#-----------------------------------------------------------
+source power_estimate.tcl
+# read_verilog myproject_prj/solution1/syn/verilog/myproject.v
+# synth_design -top myproject -part xczu7ev-ffvc1156-2-e
+Command: synth_design -top myproject -part xczu7ev-ffvc1156-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3339134
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1874.688 ; gain = 426.645 ; free physical = 47148 ; free virtual = 209147
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'myproject' [/home/y.baran.659/fpga_hls4ml/hls_project/myproject_prj/solution1/syn/verilog/myproject.v:9]
+ERROR: [Synth 8-439] module 'myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_18_5_3_0_config2_s' not found [/home/y.baran.659/fpga_hls4ml/hls_project/myproject_prj/solution1/syn/verilog/myproject.v:647]
+ERROR: [Synth 8-6156] failed synthesizing module 'myproject' [/home/y.baran.659/fpga_hls4ml/hls_project/myproject_prj/solution1/syn/verilog/myproject.v:9]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1950.656 ; gain = 502.613 ; free physical = 47055 ; free virtual = 209052
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+6 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 11 19:31:27 2026...

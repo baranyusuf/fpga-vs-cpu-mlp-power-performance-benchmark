@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Mar 11 19:33:14 2026
+# Process ID: 3371048
+# Current directory: /home/y.baran.659/fpga_hls4ml/hls_project
+# Command line: vivado -mode batch -source power_estimate.tcl
+# Log file: /home/y.baran.659/fpga_hls4ml/hls_project/vivado.log
+# Journal file: /home/y.baran.659/fpga_hls4ml/hls_project/vivado.jou
+# Running On        :waiter
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.5 LTS
+# Processor Detail  :AMD Ryzen Threadripper PRO 7985WX 64-Cores
+# CPU Frequency     :4727.198 MHz
+# CPU Physical cores:64
+# CPU Logical cores :128
+# Host memory       :404950 MB
+# Swap memory       :0 MB
+# Total Virtual     :404950 MB
+# Available Virtual :219605 MB
+#-----------------------------------------------------------
+source power_estimate.tcl

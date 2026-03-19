@@ -1,0 +1,12 @@
+name: codecarbon_bench
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy=1.24
+  - psutil
+  - pip
+  - pip:
+      - tensorflow-cpu==2.13.0
+      - codecarbon==2.3.4
